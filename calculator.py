@@ -1,6 +1,6 @@
 import sys
 #from helpers import add_prefix
-from calc import add, subtract, multiply, divide, index
+from calc import add, subtract, multiply, divide, index, add_multiply
 
 def get_args():
     try:
@@ -34,6 +34,9 @@ def main():
 
     elif operation == "index":
         result = index(start_number, operation_number)
+
+    elif operation == "add_multiply":
+        result = add_multiply(start_number, operation_number)
     
     else:
         raise Exception(f"Unsupported or invalid operation '{operation}'")

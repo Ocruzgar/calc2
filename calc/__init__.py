@@ -9,6 +9,8 @@ def subtract(start_number, operation_number):
 def multiply(start_number, operation_number):
     return start_number * operation_number
 
+def add_multiply(start_number, operation_number):
+    return (start_number + operation_number) * operation_number
 
 def divide(start_number, operation_number):
     return start_number / operation_number
