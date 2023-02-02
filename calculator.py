@@ -42,8 +42,5 @@ def main():
 
     return 0
 
-def calculator()
-    pass
-
 if __name__ == '__main__':
-    sys.exit(calculator())
+    sys.exit(main())
